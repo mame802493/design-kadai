@@ -1,0 +1,160 @@
+.mv-bg {
+  position: relative;
+  margin-bottom: 111px;
+}
+
+.text1 {
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 72px;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.top {
+  font-family: "HelveticaNeue", sans-serif;
+  font-size: 48px;
+  color: #000000;
+  text-align: center;
+}
+
+.about-image {
+  margin: 90px 50px 200px 140px;
+  /* 左右の余白調整がうまくいかず目分量で調整した…*/
+}
+
+.dummy1 {
+  width: 430px;
+  height: 234px;
+  font-family: "Kozuka Gothic Pr6N", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0.04em;
+  line-height: 2;
+  margin: 90px 210px 200px 0px;
+  /* 左右の余白調整がうまくいかず目分量で調整した…*/
+}
+
+.second {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.chocolate {
+  margin: 90px 0px 160px 140px;
+}
+
+.strawberry {
+  margin: 90px 0px 160px 0px;
+}
+
+.varietybox {
+  margin: 90px 156px 160px 0px;
+}
+
+h3 {
+  font-family: "Kozuka Gothic Pr6N", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0.04em;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+.dummy2 {
+  font-family: "Kozuka Gothic Pr6N", sans-serif;
+  font-size: 16px;
+  color: #606060;
+  letter-spacing: 0.04em;
+  line-height: 2;
+  text-align: left;
+}
+
+.third {
+  background-color: #660000;
+  display: flex;
+}
+
+.text2 {
+  font-family: "HelveticaNeue", sans-serif;
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 51px 0px 61px 190px;
+}
+
+.text3 {
+  font-family: "Kozuka Gothic Pr6N", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  font-weight: bold;
+  line-height: 1.7;
+  margin: 60px 0px 0px 190px;
+}
+
+.text3::before {
+  content: " ― "
+}
+
+.text5::before {
+  content: " ― "
+}
+
+.text4 {
+  font-family: "Kozuka Gothic Pr6N", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 2;
+  margin: 18px 0px 76px 190px;
+}
+
+.text5 {
+  font-family: "Kozuka Gothic Pr6N", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  font-weight: bold;
+  margin: 60px 0px 0px 290px;
+}
+
+form {
+  margin: 20px 190px 0px 290px;
+}
+
+input[type="text"] {
+  width: 350px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: "Kozuka Gothic Pr6N", sans-serif;
+  border-radius: 4px;
+}
+
+.textarea {
+  width: 350px;
+  height: 95px;
+  font-size: 14px;
+  font-family: "Kozuka Gothic Pr6N", sans-serif;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 350px;
+  height: 28px;
+  background-color: #ff6a6a;
+  font-size: 14px;
+  font-family: "Kozuka Gothic Pr6N", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 4px;
+}
